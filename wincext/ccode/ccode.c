@@ -27,7 +27,7 @@ static PyObject *DemoLib_iFactorialSum(PyObject *self, PyObject *args) {
         return NULL;
     }
 
-
+    long nums[] = {1,2,3,4};
     unsigned long fact_sum;
     fact_sum = ifactorial_sum(nums, n);
 
